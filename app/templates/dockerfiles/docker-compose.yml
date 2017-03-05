@@ -1,0 +1,14 @@
+version: '2'
+services:
+  nginx:
+    build:
+      context: ./nginx
+      dockerfile: Dockerfile
+    entrypoint: ./dockerfiles/nginx/entrypoint.sh
+    env_file: ./nginx/nginx.env
+    ports:
+      - "8000:80"
+    links:
+      - php
+    depends_on:
+      - php
