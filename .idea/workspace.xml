@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf7be843-a566-4122-abae-d5b4ab9da0fa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/templates/_controller.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/entity/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/entity/templates/_entity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/template/_repository.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/repository/templates/_service.java" afterPath="$PROJECT_DIR$/service/templates/_service.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.js" afterPath="$PROJECT_DIR$/app/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/index.js" afterPath="$PROJECT_DIR$/controller/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repository/index.js" afterPath="$PROJECT_DIR$/repository/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/index.js" afterPath="$PROJECT_DIR$/service/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -359,12 +350,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1488703682341</updated>
-      <workItem from="1488703683546" duration="8733000" />
+      <workItem from="1488703683546" duration="8763000" />
     </task>
+    <task id="LOCAL-00001" summary="add service controller entity">
+      <created>1488718976592</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1488718976592</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8733000" />
+    <option name="totallyTimeSpent" value="8763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1296" height="1000" extended-state="6" />
@@ -393,6 +392,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add service controller entity" />
+    <option name="LAST_COMMIT_MESSAGE" value="add service controller entity" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
