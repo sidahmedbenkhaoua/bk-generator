@@ -5,24 +5,22 @@
   "homepage": "http://benkhaouas.blogspot.com/",
   "author": {
     "name": "benkhaoua sidahmed",
-    "email": "israel@moltin.com",
-    "url": "http://zot24.com"
+    "email": "sidahmed.benkhaoua@gmail.com"
+
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/moltin/generator-moltin-service.git"
+    "url": "https://github.com/sidahmedbenkhaoua/bk-generator.git"
   },
-  "bugs": {
-    "url": "https://github.com/moltin/generator-moltin-service/issues"
-  },
+
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/moltin/generator-moltin-service/blob/master/LICENSE"
+      "url": "https://github.com/sidahmedbenkhaoua/bk-generator/blob/master/LICENSE"
     }
   ],
   "files": [
-    "app"
+    "app","controller","repository"
   ],
   "keywords": [
     "yeoman-generator"
