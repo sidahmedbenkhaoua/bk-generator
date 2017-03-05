@@ -10,11 +10,12 @@ module.exports = generators.NamedBase.extend({
   },
   writing: function () {
     this.fs.copyTpl(
-      this.templatePath('_repository.java'),
-      this.destinationPath('repository/' + this.name + 'Repository.java'),
+      this.templatePath('_entity.java'),
+      this.destinationPath('entity/' + this.name + '.java'),
       {
         entity: this.name,
-        app: this.appname
+        app: this.appname,
+        entityName: this.name.toLowerCase()
       }
     );
   }

@@ -1,4 +1,4 @@
-package app.rcafo.service;
+package app.<%= app %>.service;
 
 import dz.software.<%= app %>.commun.dao.Dao;
 import dz.software.<%= app %>.commun.repository.GenericService;
@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 /**
- * Created by IOS SOS TOXIC on 13/12/2016.
+ * Created by bk-generator
  */
 
 @Service

@@ -9,6 +9,13 @@ module.exports = generators.NamedBase.extend({
 
   },
   writing: function () {
-
+    this.fs.copyTpl(
+      this.templatePath('_entity.java'),
+      this.destinationPath('controller/' + this.name + 'Controller.java'),
+      {
+        entity: this.name,
+        app: this.appname
+      }
+    );
   }
 })
